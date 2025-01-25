@@ -1,41 +1,19 @@
 
 -------------------------------------------------------------------------------
- __________    Sequential Bash Caclulator - CS 334 Spring 2019 - Nick Salvador 
-| ________ |
-||12345678||
-|""""""""""|
-|[M|#|C][-]|
-|[7|8|9][+]|
-|[4|5|6][x]|
-|[1|2|3][%]|
-|[.|O|:][=]|
-"----------"  
+                          Sequential Bash Caclulator
+BashCalc: Sequential Bash Calculator
 
+A lightweight, command-line calculator written in Bash that evaluates mathematical expressions in sequential order.
 
-To run the program, enter ./CalcUI.bash
+Features:
 
-First prompt will ask user to enter an operand such as +,-,*,/
-or Q to quit.
+Sequential calculation: operators and operands are evaluated in the order they are entered
+Save history: view previous calculations and results
+Interactive interface: prompts user for input, displays results, and asks for further operations
 
-Second prompt will ask user whether or not they would like to use 
-the result of the previous operation with n, 1 or 2.
+Language: Bash
 
-Lastly, the user will be asked if they would like the pointer in the
-CalcData file to be reset with options y or n.
-
-Below is an example of a few:
-
-Enter operation to be performed (+-*/ or Q to Quit): 
-+
-Use previous result as operand? (n/1/2): 
-n
-Reset data file pointer to start of data file? (y/n): 
-n
-Calc.bash run on Sun Apr 28 16:32:11 CDT 2019 processID 28983 
-Calculator result for: 3 + 35 
-Result: 38 
-press <enter> or any key to continue 
-
+Note: programe made for project in University's Linux class 
 -------------------------------------------------------------------------------
 
 
