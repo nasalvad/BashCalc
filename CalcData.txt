@@ -1,0 +1,4 @@
+# CalcData.csv file created on Tuesday April 4 14:31:10 CDT 2017
+# Format: comma separated integers, may be on more than one line
+3,35,5,63,12,9,0,1,31,11
+2,4,6,8,10,12,14,16,18,20,END
